@@ -1,0 +1,11 @@
+:root{
+    /* Background Color */
+    --primary-banner-color: #FFFCF4;
+    --section-color: #2E2100; 
+    /* Button Color */
+    --primary-button-color: #FFB900;
+    --card-button-color: #171100;
+    /* Text Color */
+    --primary-text-color: #171100;
+    --secondary-text-color: #5F5B53;
+}

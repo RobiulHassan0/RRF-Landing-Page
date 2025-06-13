@@ -393,9 +393,9 @@ main{
 
 /* Features Section Styles */
 .features-container{
-    /* height: 438px;
+    height: 438px;
     display: grid;
-    grid-template-columns: 1fr 1fr; */
+    grid-template-columns: 1fr 1fr; 
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -423,12 +423,12 @@ main{
     color: var(--secondary-text-color);
     font-size: 1rem;
     font-weight: 400;
-    line-height: 1.75rem;
+    line-height: 28px;
+    margin-bottom: 16px;
 }
 .section-btn{
     font-size: 1rem;
-    line-height: 1.75rem;
-    margin-top: 1rem;
+    line-height: 28px;
     border-radius: 26px;
     display: inline-block;
     padding: 10px 37px;

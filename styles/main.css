@@ -344,10 +344,52 @@ main{
     box-shadow: none;
     border: 1px solid rgb(226, 223, 218);
 }
-
 .border .card-btn{
     background: var(--primary-text-color);
 }
+
+/* Testimonial Styles */
+.testimonial{
+    background: var(--section-color);
+    padding: 6rem 0;
+    margin: 12.5rem 0;
+}
+.testimonial > div{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    color: var(--third-text-color);
+}
+.container .person h4{
+    font-family: "Sen";
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 34px;
+    margin-top: 18px;
+    color: var(--fourth-text-color);
+}
+.container .person p{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+}
+.container .text p{
+    font-style: italic;
+    font-size: 26px;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 0%;
+    color: #fff;
+    margin-left: 30px;
+}
+.dot{
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background: #634700;
+    display: inline-block;
+}
+
 
 @media (max-width: 576px) {
     nav ul{

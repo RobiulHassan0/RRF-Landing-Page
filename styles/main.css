@@ -90,7 +90,8 @@ nav p a{
     font-family: "Sen", sans-serif;
     color: var(--primary-text-color);
 }
-nav p a > span{
+nav p a > span,
+.lesson span{
     color: var(--primary-button-color);
 }
 
@@ -214,10 +215,12 @@ nav p a > span{
 }
 .inner-card .first p, 
 .inner-card .second p, 
-.inner-card .third p{
+.inner-card .third p,
+.links a, .lesson p{
     font-size: 14px;
     line-height: 26px;
     font-weight: 400;
+    text-transform: capitalize;
     color: var(--secondary-text-color);
 }
 
@@ -474,7 +477,8 @@ main{
 .blog .card-content{
     padding: 20px 20px 28px;
 }
-.blog-title{
+.blog-title,
+.footer-item h4{
     font-size: 1rem;
     font-weight: 600;
     line-height: 1.75rem;
@@ -497,11 +501,46 @@ main{
 .blog-btn{
     background: var(--card-button-color);
 }
-
 .blogs-container .dots{
     margin-top: 2.375rem;
 }
 
+/* Footer Section Styles */
+
+footer{
+    background: var(--section-color);
+    color: #fff;
+    padding: 6rem 0;
+}
+.footer-container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    /* gap: 30px; */
+}
+.lesson h4{
+    font-family: "Sen";
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 34px;
+    margin-bottom: 1.125rem;
+}
+.footer-item{
+    
+}
+.footer-item > .hr-line{
+    width: 130px;
+    height: 1px;
+    background-color: #59554B;
+    margin: 0.875rem 0 1.75rem;
+}
+.links{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+.links strong{
+    color: #fff;
+}
 
 
 @media (max-width: 576px) {

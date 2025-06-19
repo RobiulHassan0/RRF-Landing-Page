@@ -515,18 +515,25 @@ footer{
 .footer-container{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    /* gap: 30px; */
+}
+.lesson{
+    width: 267px;
+    display: flex;
+    flex-direction: column;
+    gap: 1.125rem;
+    margin-right: 145px;
 }
 .lesson h4{
     font-family: "Sen";
     font-size: 24px;
     font-weight: 700;
     line-height: 34px;
-    margin-bottom: 1.125rem;
 }
-.footer-item{
-    
+.social {
+  display: flex;
+  gap: 1.125rem;
 }
+
 .footer-item > .hr-line{
     width: 130px;
     height: 1px;
@@ -537,6 +544,9 @@ footer{
     display: flex;
     flex-direction: column;
     gap: 12px;
+}
+.links a, .lesson p{
+    color: var(--footer-font-color);
 }
 .links strong{
     color: #fff;

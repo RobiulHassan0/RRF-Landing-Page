@@ -225,8 +225,8 @@ nav p a > span,
 }
 
 /* Main Section Styles */
-main{
-    padding: 12.5rem 0;
+.course-section{
+    padding-top: 12.5rem;
 }
 .courses-header{
     position: relative;
@@ -510,9 +510,11 @@ main{
 footer{
     background: var(--section-color);
     color: #fff;
-    padding: 6rem 0;
+    padding-top: 6rem;
 }
 .footer-container{
+    /* display: flex; */
+    margin-bottom: 2.375rem;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
 }
@@ -533,11 +535,16 @@ footer{
   display: flex;
   gap: 1.125rem;
 }
-
+/* .box1, .box2{
+    margin-right: 130px;
+}
+.box3{
+    width: 231px;
+} */
 .footer-item > .hr-line{
     width: 130px;
     height: 1px;
-    background-color: #59554B;
+    background-color: var(--hr-line-color);
     margin: 0.875rem 0 1.75rem;
 }
 .links{
@@ -551,6 +558,27 @@ footer{
 .links strong{
     color: #fff;
 }
+.copyright .hr-line{
+    height: 1px;
+    background: var(--hr-line-color);
+    width: 100%;
+}
+.copyright p{
+    padding: 1.75rem 0;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: center;
+    color: #807D74;
+}
+
+
+
+
+
+
+
+
 
 
 @media (max-width: 576px) {
